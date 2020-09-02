@@ -1,0 +1,24 @@
+= Sunset Repos: Archive batches of GitHub repositories
+
+
+== Installation
+
+Create a GitHub personal access token. The application will prompt you
+for the value of your token each time you run it.
+
+Issue the following command in the project root:
+
+----
+pip install .
+----
+
+
+== Usage
+
+Create a text file containing a batch of repositories listed in a
+single column, then point the program to the file, using the following
+command template:
+
+----
+sunset-repos <GitHub organisation> <CSV file>
+----
