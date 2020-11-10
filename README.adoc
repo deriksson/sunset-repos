@@ -22,3 +22,9 @@ command template:
 ----
 sunset-repos <GitHub organisation> <CSV file>
 ----
+
+An example using process substitution to handle a single repository:
+
+----
+sunset-repos GITHUB_ORGANISATION <(echo REPOSITORY_NAME)
+----
