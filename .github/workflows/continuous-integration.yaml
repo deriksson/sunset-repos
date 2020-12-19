@@ -5,7 +5,6 @@ on:
   pull_request:
     branches: [master]
   workflow_dispatch:
-
 jobs:
   build:
     runs-on: ubuntu-18.04
@@ -24,6 +23,7 @@ jobs:
           pandoc -f docbook -t markdown_strict README.xml -o README.md
           python3 setup.py install
   deploy:
+    needs: build
     runs-on: ubuntu-18.04
     if: |
         contains(github.event.head_commit.message, '[release]') == true &&
