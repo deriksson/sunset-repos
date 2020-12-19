@@ -6,5 +6,7 @@
 *.bak
 .pytest_cache/
 README.html
+README.md
+README.xml
 *__pycache__/
 .idea/

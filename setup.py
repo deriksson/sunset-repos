@@ -4,7 +4,7 @@
 
 from setuptools import find_packages, setup
 
-with open("README.adoc", "r", encoding="utf-8") as readme_file:
+with open("README.md", "r", encoding="utf-8") as readme_file:
     long_description = readme_file.read()
 
 
@@ -15,7 +15,7 @@ setup(
     author_email="gustaf.daniel.eriksson@gmail.com",
     description="Archive batches of GitHub repositories",
     long_description=long_description,
-    long_description_content_type="text/asciidoc",
+    long_description_content_type="text/markdown",
     url="https://github.com/deriksson/sunset-repos",
     classifiers=[
         "Programming Language :: Python :: 3",
