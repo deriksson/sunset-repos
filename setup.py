@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='sunset-repos',
-    version='0.0.1',
+    version='1.0.0',
     author='Daniel Eriksson',
     packages=find_packages(),
     include_package_data=True,
