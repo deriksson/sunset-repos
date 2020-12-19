@@ -1,10 +1,10 @@
 *.pyc
 *.egg-info/
 .eggs/
-VERSION
 *.mypy_cache/
 *~
 *.bak
 .pytest_cache/
 README.html
 *__pycache__/
+.idea/

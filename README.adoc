@@ -6,7 +6,15 @@
 Create a GitHub personal access token. The application will prompt you
 for the value of your token each time you run it.
 
-Issue the following command in the project root:
+The application is available at PyPI. Install it from there using the following
+command:
+
+----
+pip install sunset-repos
+----
+
+You can also install directly from the source code by issuing the following
+command in the project root:
 
 ----
 pip install .
