@@ -10,9 +10,9 @@ with open("README.adoc", "r", encoding="utf-8") as readme_file:
 
 
 setup(
-    name='sunset-repos',
-    version='1.0.0',
-    author='Daniel Eriksson',
+    name="sunset-repos",
+    version="1.0.0",
+    author="Daniel Eriksson",
     author_email="gustaf.daniel.eriksson@gmail.com",
     description="Archive batches of GitHub repositories",
     long_description=long_description,
@@ -23,19 +23,10 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    python_requires=">=3.6",
     packages=find_packages(),
     include_package_data=True,
-    install_requires=[
-        'Click >= 7.0',
-        'requests >= 2.22.0'
-    ],
-    setup_requires=[
-        'flake8'
-    ],
-    entry_points={
-        'console_scripts': [
-            'sunset-repos=sunset_repos.cli:cli'
-        ]
-    }
+    install_requires=["Click >= 7.0", "requests >= 2.22.0"],
+    setup_requires=["flake8"],
+    entry_points={"console_scripts": ["sunset-repos=sunset_repos.cli:cli"]},
 )
