@@ -2,8 +2,7 @@
 
 """
 
-from setuptools import setup, find_packages
-
+from setuptools import find_packages, setup
 
 with open("README.adoc", "r", encoding="utf-8") as readme_file:
     long_description = readme_file.read()
@@ -11,7 +10,7 @@ with open("README.adoc", "r", encoding="utf-8") as readme_file:
 
 setup(
     name="sunset-repos",
-    version="1.0.0",
+    version="1.0.1",
     author="Daniel Eriksson",
     author_email="gustaf.daniel.eriksson@gmail.com",
     description="Archive batches of GitHub repositories",

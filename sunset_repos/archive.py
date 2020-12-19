@@ -1,11 +1,11 @@
 """Archive GitHub repositories.
 
 """
-from typing import Callable, Tuple
-from sys import stderr
 from getpass import getpass
-from requests import patch
+from sys import stderr
+from typing import Callable, Tuple
 
+from requests import patch
 
 REST_HOST = "api.github.com"
 VERIFY_CERT = True
